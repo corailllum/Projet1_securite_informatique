@@ -1,6 +1,6 @@
 # Projet1_securite_informatique
 
-Membres du groupe : Charlotte Chanudet, Mathieu Docher, ---
+Membres du groupe : Charlotte Chanudet, Mathieu Docher, Théo
 
 ## Introduction 
 Ce projet s'incrit dans le cadre du cour 8INF857 : sécuritée informatique. Le but est de mettre en place sur un VM linux des logicels de surveillece de log grave au logicelles :
