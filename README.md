@@ -543,12 +543,12 @@ netcat 45.145.167.138 80 <<< "data extract"
 
 - **Un dashboard personnalisé** permettrait d’améliorer la visualisation et la compréhension des données de sécurité. En regroupant les informations clés (alertes, logs, statistiques réseau) sur une interface claire, l’analyse devient plus rapide et plus efficace. Cela facilite la prise de décision ainsi que le suivi de l’état du système en temps réel, notamment pour les administrateurs ou équipes SOC.
 
-- **Ajouter un système d’alertes par mail ou SMS** augmenterait la réactivité face aux incidents. Cette amélioration garantit que les administrateurs soient informés immédiatement d’un événement critique, même s’ils ne sont pas devant le dashboard. La notification en temps réel permet de réduire le temps de réponse et donc de limiter l’impact potentiel d’une attaque ou d’une anomalie réseau.
+- **Ajouter un système d’alertes par mail, SMS, Slack ou Teams** augmenterait la réactivité face aux incidents. Cette amélioration garantit que les administrateurs soient informés immédiatement d’un événement critique, même s’ils ne sont pas devant le dashboard. La notification en temps réel permet de réduire le temps de réponse et donc de limiter l’impact potentiel d’une attaque ou d’une anomalie réseau.
 
 ### Perspectives et veille technologique
 - **Passer à la version 3 de Snort** permet de bénéficier d’une architecture plus moderne et performante. Cette évolution améliore les performances en environnement à fort trafic, tout en facilitant la maintenance et l’intégration avec d’autres outils de sécurité. De plus, Snort 3 embarque de nouvelles fonctionnalités, des mises à jour de signatures plus rapides et un support technique renforcé, ce qui en fait une solution plus pérenne et adaptée aux besoins actuels en cybersécurité.
 
-- **Intégrer des outils complémentaires** pour enrichir la capacité de détection et d'analyse. Par exemple, l'ajout de Wazuh pour la détection des menaces ou de Grafana pour des visualisations plus avancées et qui permettrait d’avoir une vue plus complète de la sécurité du réseau.
+- **Intégrer des outils complémentaires** pour enrichir la capacité de détection et d'analyse. Par exemple, l'ajout de Wazuh ou Suricata pour la détection des menaces ou de Grafana pour des visualisations plus avancées et qui permettrait d’avoir une vue plus complète de la sécurité du réseau.
 
 ---
 
@@ -569,3 +569,4 @@ Ce projet nous a permis de mettre en place un système complet de journalisation
 - [Documentation syslog-ng](https://www.syslog-ng.com/community/b/blog/posts/installing-the-latest-syslog-ng-on-ubuntu-and-other-deb-distributions)
 - [Documentation Snort](https://docs.snort.org/start/installation)
 - [Documentation ELK](https://www.elastic.co/docs)
+
