@@ -10,8 +10,6 @@ _8INF857 - Sécurité Informatique_
 - [Configuration](#configuration)
 - [Scénarios d'intrusion](#scénarios-dintrusion)
 - [Utilisation](#utilisation)
-- [Visualisation avec Kibana](#visualisation-avec-kibana)
-- [Alertes et notifications](#alertes-et-notifications)
 - [Structure du dépôt](#structure-du-dépôt)
 - [Analyse et conclusion](#analyse-et-conclusion)
 - [Équipe](#équipe)
@@ -563,6 +561,7 @@ Ce projet nous a permis de mettre en place un système complet de journalisation
 - **Mathieu DOCHER**
 - **Théo LE LEZ**
  
+
 ---
 
 ## Références
