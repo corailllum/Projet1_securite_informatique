@@ -308,6 +308,7 @@ Il est ensuite possible d'accéder à l'interface web de Kibana en ouvrant un na
 
 ### Configuration de syslog-ng
 Le fichier de configuration complet est disponible dans le dossier `configs/syslog-ng/syslog-ng.conf`.
+
 La configuration pour recevoir pour lier avec Elasticsearch est disponible dans le dossier `configs/syslog-ng/elasticsearch.conf`.
 
 ### Configuration de l'IDS/IPS Snort
