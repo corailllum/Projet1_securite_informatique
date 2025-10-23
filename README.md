@@ -273,7 +273,7 @@ Ensuite, il faut redémarrer le service syslog-ng pour appliquer les modificatio
 sudo /etc/init.d/syslog-ng restart
 ```
 
-Et voila ! Elasticsearch est maintenant installé et fonctionnel.
+Et voilà ! Elasticsearch est maintenant installé et fonctionnel.
 
 ### 4. Installation de Kibana
 
@@ -408,9 +408,9 @@ Tous les logs générés sont de niveau `alert`, soit le plus haut niveau de pri
 ![image du dashbord](img/test.png)
 
 **Lecture et interprétation** :
-L'interface de Kibana est plutôt simple : en haut, on trouve deux barres de recherches pour filtrer les logs par mot clé ou par date, et à gauche d'autres filtres pour les sources des logs et leur type. PLus au centre, on trouve les logs en eux-mêmes ainsi qu'un graphique représentant le volume de journaux selon le temps.
+L'interface de Kibana est plutôt simple : en haut, on trouve deux barres de recherches pour filtrer les logs par mot clé ou par date, et à gauche d'autres filtres pour les sources des logs et leur type. Plus au centre, on trouve les logs en eux-mêmes ainsi qu'un graphique représentant le volume de journaux selon le temps.
 
-Les logs suivent tous le même format, à savoir : les champs timestamp et date qui donne la date et l'heure d'émission du log, puis la provenance du log avec facility et host, la date au format ISO, le message associé au log, avec également le protocole concerné et les machines sources et destination, le pid du programme qui a émis le log ainsi que le nom du programme, et enfin le niveau de priorité de celui-ci.
+Les logs suivent tous le même format, à savoir : les champs timestamp et date qui donnent la date et l'heure d'émission du log, puis la provenance du log avec facility et host, la date au format ISO, le message associé au log, avec également le protocole concerné et les machines sources et destination, le pid du programme qui a émis le log ainsi que le nom du programme, et enfin le niveau de priorité de celui-ci.
 
 ## Utilisation
 
@@ -517,8 +517,8 @@ netcat 45.145.167.138 80 <<< "data extract"
 │   ├── syslog-ng/
 │   │   └── syslog-ng.conf
 │   │   └── elasticsearch.conf
-│   └── elasticsearch/
-│       └── elasticsearch.yml
+│   ├── elasticsearch/
+│   │   └── elasticsearch.yml
 │   └── kibana/
 │       └── kibana.yml
 └── img/
@@ -563,7 +563,6 @@ Ce projet nous a permis de mettre en place un système complet de journalisation
 - **Mathieu DOCHER**
 - **Théo LE LEZ**
  
-
 ---
 
 ## Références
